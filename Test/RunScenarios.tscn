@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dx658nb26l6t5"]
+
+[ext_resource type="Script" uid="uid://dthycy8283uyp" path="res://Test/run_scenarios.gd" id="1_5hr40"]
+
+[node name="RunScenarios" type="Node" unique_id=1339867083]
+script = ExtResource("1_5hr40")
+
+[node name="Timer" type="Timer" parent="." unique_id=524716048]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dl3fh2mjyutvl"]
+
+[ext_resource type="Script" uid="uid://ytqk7fttkxjw" path="res://Test/test_all.gd" id="1_ku2gh"]
+[ext_resource type="PackedScene" uid="uid://dx658nb26l6t5" path="res://Test/RunScenarios.tscn" id="2_r40jn"]
+
+[node name="TestAll" type="Node" unique_id=87770793]
+script = ExtResource("1_ku2gh")
+
+[node name="RunScenarios" parent="." unique_id=1339867083 instance=ExtResource("2_r40jn")]
